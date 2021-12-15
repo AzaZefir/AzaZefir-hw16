@@ -23,22 +23,7 @@ img {
 h1{
     text-align: center;
 }
-/* .left img{
-    width: 20%;
-    height: 90%;
-}
-.left{
-    display: inline-block;
-    width: 49%;
-    height: 100%;
-    vertical-align: top;
-}
-.right{
-    display: inline-block;
-    width: 49%;
-    height: 100%;
-    vertical-align: top;
-} */
+
 .container{
     display: flex;
     flex-direction: column;
@@ -80,52 +65,13 @@ button{
 }
 
 
-/* .nav-btn {
-	position: relative;
-	width: 42px;
-	height: 36px;
-	background: transparent;
-	border: none;
-	cursor: pointer;
-	margin-left: -10px;
-}
-
-.nav-btn span {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%);
-	width: 22px;
-	height: 2px;
-}
-
-.nav-btn span,
-.nav-btn span::after,
-.nav-btn span::before {
-	width: 22px;
-	height: 2px;
-	position: absolute;
-	background: #0d3351;
-}
-
-.nav-btn span::before {
-	content: "";
-	top: -7px;
-	left: 0;
-}
-
-.nav-btn span::after {
-	content: "";
-	top: 7px;
-	left: 0;
-} */
 .btn-location{
     display: inline;
     justify-content: center;
     text-align: center;
     text-align: center;
 }
-nav .btn-location{
+nav a{
     color: black;
     text-decoration: none;
     background: #28c242;
